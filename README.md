@@ -1,14 +1,13 @@
-         ___        ______     ____ _                 _  ___  
-        / \ \      / / ___|   / ___| | ___  _   _  __| |/ _ \ 
-       / _ \ \ /\ / /\___ \  | |   | |/ _ \| | | |/ _` | (_) |
-      / ___ \ V  V /  ___) | | |___| | (_) | |_| | (_| |\__, |
-     /_/   \_\_/\_/  |____/   \____|_|\___/ \__,_|\__,_|  /_/ 
- ----------------------------------------------------------------- 
+My Resume Project Web Page
+Welcome!
+
+This website was built as part of the learning material for Code Institute's Fullstack Web Developer program.
+
+You can check out the website here!
+
+Project Description
+This site was created in order to get a foundation for our Resumé project. The project itself will display a breakdown of the different technologies used in each of the different sections of the program.
 
 
-Hi there! Welcome to AWS Cloud9!
-
-To get started, create some files, play with the terminal,
-or visit https://docs.aws.amazon.com/console/cloud9/ for our documentation.
-
-Happy coding!
+Technology
+This project was written in HTML & CSS & Javascript using Cloud9 and is currently hosted on GitHub pages.
