@@ -17,11 +17,11 @@ function initMap() {
 
     var markers = locations.map(function(location, i) { //this map method here is a built-in JavaScript method.
         return new google.maps.Marker({
-                        position: location,
-                        label: labels[i % labels.length]
+            position: location,
+            label: labels[i % labels.length] //Now the reason that we're doing this is that we want to get one of our labels out of the string that we've created.
         });
     });
 
     var markerCluster = new MarkerClusterer(map, markers,
-        {imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'});
+    {imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'});
 }

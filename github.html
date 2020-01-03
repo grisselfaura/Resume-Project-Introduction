@@ -7,12 +7,15 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" type="text/css" />
-    <link rel="stylesheet" href="assets/css/github-styles.css" type="text/css">
+    <link rel="stylesheet" href="assets/CSS/github-styles.css" type="text/css">
     <link rel="stylesheet" href="assets/CSS/style.css" type="text/css" />
+
+
     <title>Grissel</title>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
+    <script type="text/javascript" src="assets/js/github-information.js"></script>
+    
 </head>
 
 <body>
@@ -61,10 +64,11 @@
             </div>
 
             <div class="center-form">
-                <input type="text" id="gh-username" value="octocat" oninput="fetchGitHubInformation()">
+                <input type="text" id="gh-username" value="octocat" oninput="fetchGitHubInformation()" />
                 <div id="gh-user-data" class="clearfix"></div>
                 <div id="gh-repo-data" class="clearfix"></div>
             </div>
+            
         </div>
     </section>
     <footer class="container-fluid">
